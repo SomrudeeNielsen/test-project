@@ -1,25 +1,31 @@
 h1 {
     color: green; 
     font-size: 40px;
-    font-weight: 300px;
+    font-weight: 600px;
     font-style: italic;
     text-align: center;
     background-color: purple;
 }
+ .cat-section {
+     background-color: rgb(158, 12, 158, 0.6);
+     }
 
-/*This is a single line comment*/
+ body {
+     background-image: url(../images/bird.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     background: url(../images/bird.jpg), no-repeat, fixed, center, cover; 
+     height: 200vh;
 
-/*This comment
-  takes up
-  multiple wors*/
-  #second-paragraph {
-    color: purple
-}
-  p {
-      color: red;
-      color: orange;
-  }
-
- .cat-info, .last-paragraph {
-     color: pink;
  }
+img {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border: 5px solid red;
+    border-top: 5px solid green;
+    border-radius: 5px 10px 20px;
+    box-shadow: 10px 10px 20px purple;
+}
